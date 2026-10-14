@@ -3,76 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Jonathan Yumisaca - Estudiante de Ingeniería en Software y atleta CrossFit. Portafolio y redes.">
     <title>Jonathan Yumisaca | Links & Proyectos</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
     <main class="contenedor">
 
         <!-- BIO -->
-        <section class="bio">
-            <img src="KUC.jpg" alt="Foto de Jonathan Yumisaca" class="foto">
+        <header class="bio">
+            <div class="foto-wrap">
+                <img src="KUC.jpg" alt="Jonathan Yumisaca" class="foto" onerror="this.style.display='none'">
+            </div>
             <h1 class="nombre">Jonathan Yumisaca</h1>
-            <p class="descripcion">Estudiante de Ingeniería en Software · Atleta CrossFit</p>
-        </section>
+            <p class="descripcion">Ingeniería en Software · CrossFit Athlete</p>
+        </header>
 
         <!-- REDES -->
-        <nav class="links" aria-label="Redes sociales">
-            <a href="https://www.instagram.com/jony_steeven02/" class="link insta" target="_blank" rel="noopener">Instagram</a>
-            <a href="https://youtube.com/@jonathansteevenyumisacachi8718" class="link youtube" target="_blank" rel="noopener">YouTube</a>
-            <a href="https://www.tiktok.com/@jonathan098y" class="link tiktok" target="_blank" rel="noopener">TikTok</a>
-            <a href="https://www.facebook.com/jony.steeven" class="link facebook" target="_blank" rel="noopener">Facebook</a>
+        <nav class="links">
+            <a href="https://www.instagram.com/jony_steeven02/" class="link insta" target="_blank" rel="noopener">
+                <span>Instagram</span>
+            </a>
+            <a href="https://youtube.com/@jonathansteevenyumisacachi8718" class="link youtube" target="_blank" rel="noopener">
+                <span>YouTube</span>
+            </a>
+            <a href="https://www.tiktok.com/@jonathan098y" class="link tiktok" target="_blank" rel="noopener">
+                <span>TikTok</span>
+            </a>
+            <a href="https://www.facebook.com/jony.steeven" class="link facebook" target="_blank" rel="noopener">
+                <span>Facebook</span>
+            </a>
         </nav>
 
         <!-- PROYECTOS -->
         <section class="proyectos">
-            <h2 class="titulo-seccion">🚀 Proyectos & Trabajos</h2>
+            <h2 class="titulo-seccion">
+                <span class="linea"></span>
+                Proyectos
+                <span class="linea"></span>
+            </h2>
+
             <div class="grid-proyectos">
 
-                <article class="card-proyecto">
-                    <img src="proyectos/proyecto1.jpg" alt="Proyecto 1">
-                    <div class="info">
-                        <h3>Nombre del Proyecto 1</h3>
-                        <p>Breve descripción del proyecto, tecnologías usadas, etc.</p>
+                <article class="card">
+                    <div class="card-thumb thumb-1">
+                        <span class="thumb-icon">💻</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Nombre Proyecto 1</h3>
+                        <p>Descripción corta del proyecto. Qué hace, para qué sirve.</p>
                         <div class="tags">
                             <span>HTML</span><span>CSS</span><span>JS</span>
                         </div>
                         <div class="acciones">
-                            <a href="#" target="_blank" rel="noopener">Ver demo</a>
+                            <a href="#" target="_blank" rel="noopener">Demo</a>
                             <a href="#" target="_blank" rel="noopener">Código</a>
                         </div>
                     </div>
                 </article>
 
-                <article class="card-proyecto">
-                    <img src="proyectos/proyecto2.jpg" alt="Proyecto 2">
-                    <div class="info">
-                        <h3>Nombre del Proyecto 2</h3>
-                        <p>Breve descripción del proyecto, tecnologías usadas, etc.</p>
+                <article class="card">
+                    <div class="card-thumb thumb-2">
+                        <span class="thumb-icon">⚙️</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Nombre Proyecto 2</h3>
+                        <p>Descripción corta del proyecto. Qué hace, para qué sirve.</p>
                         <div class="tags">
                             <span>Python</span><span>FastAPI</span>
                         </div>
                         <div class="acciones">
-                            <a href="#" target="_blank" rel="noopener">Ver demo</a>
+                            <a href="#" target="_blank" rel="noopener">Demo</a>
                             <a href="#" target="_blank" rel="noopener">Código</a>
                         </div>
                     </div>
                 </article>
 
-                <article class="card-proyecto">
-                    <img src="proyectos/proyecto3.jpg" alt="Proyecto 3">
-                    <div class="info">
-                        <h3>Nombre del Proyecto 3</h3>
-                        <p>Breve descripción del proyecto, tecnologías usadas, etc.</p>
+                <article class="card">
+                    <div class="card-thumb thumb-3">
+                        <span class="thumb-icon">🚀</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Nombre Proyecto 3</h3>
+                        <p>Descripción corta del proyecto. Qué hace, para qué sirve.</p>
                         <div class="tags">
-                            <span>React</span><span>Node.js</span>
+                            <span>React</span><span>Node</span>
                         </div>
                         <div class="acciones">
-                            <a href="#" target="_blank" rel="noopener">Ver demo</a>
+                            <a href="#" target="_blank" rel="noopener">Demo</a>
+                            <a href="#" target="_blank" rel="noopener">Código</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-thumb thumb-4">
+                        <span class="thumb-icon">📱</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Nombre Proyecto 4</h3>
+                        <p>Descripción corta del proyecto. Qué hace, para qué sirve.</p>
+                        <div class="tags">
+                            <span>Flutter</span><span>Firebase</span>
+                        </div>
+                        <div class="acciones">
+                            <a href="#" target="_blank" rel="noopener">Demo</a>
                             <a href="#" target="_blank" rel="noopener">Código</a>
                         </div>
                     </div>
@@ -81,11 +118,9 @@
             </div>
         </section>
 
-        <!-- FOOTER -->
         <footer class="footer">
-            <p>© <span id="year"></span> Jonathan Yumisaca · Hecho con 💻 desde Ecuador</p>
+            © <span id="year"></span> Jonathan Yumisaca · Hecho en Ecuador 🇪🇨
         </footer>
-
     </main>
 
     <script>
